@@ -1,6 +1,6 @@
 Contains the files for a GitHub Pages site.
 
-The site allows for encrypting a message using a one-time set of randomly generated numbers (ranging from -25 to 25).
+The site allows for encrypting a message using a set of randomly generated numbers (ranging from -25 to 25).
 
 The message to be encrypted is shifted on a letter-by-letter basis according to its corresponding number.
 For example, if -9, 5, and 0 were to be generated and used on the word 'run,' then 'r' would be shifted back nine places and would now be an 'i.'
