@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Random Caeser Cipher</title>
+</head>
+
+<body>
+
+    <section class="container">
+
+        <div class="form">
+
+            <div class="controls">
+                <button id="generate">Generate Key</button>
+                <label for="import">Or import a key:</label>
+                <input type="file" id="import" accept=".txt">
+            </div>
+
+            <label for="plaintext">Plaintext:</label>
+            <textarea id="plaintext" name="input" autofocus></textarea>
+
+            <label for="ciphertext">Ciphertext:</label>
+            <textarea id="ciphertext" name="output" readonly></textarea>
+
+            <button id="encrypt">Encrypt</button>
+            <button id="export">Export Key</button>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
